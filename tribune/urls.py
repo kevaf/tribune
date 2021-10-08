@@ -5,5 +5,5 @@ from news import urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^news/',include('news.urls')),
+    url(r'',include('news.urls')),
 ]
